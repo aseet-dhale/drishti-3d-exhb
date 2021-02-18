@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import DebugModel from './DebugModel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <span id="info">
+        <p>Only works with Keyboard(W,A,S,D) and Mouse. Mobile Support is not given.</p>
+        <p>Work in progress!</p>  
+      </span>
+      <DebugModel />
+    </>
   );
 }
 
