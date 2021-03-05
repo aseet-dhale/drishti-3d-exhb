@@ -6,7 +6,7 @@ function App() {
     <>
       <span id="info">
         <p>Only works with Keyboard(W,A,S,D) and Mouse. Mobile Support is not given.</p>
-        <p>Work in progress!</p>  
+        <p>Work in progress!</p>
       </span>
       <DebugModel />
     </>

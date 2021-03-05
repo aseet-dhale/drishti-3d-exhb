@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -51,7 +52,36 @@
   text-align: center;
 }
 
-#info p{
+#info p {
   padding: 10px 0 10px 0;
   font-weight: bold;
+}
+
+#model-controls {
+  position: absolute;
+  z-index: 11;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  text-align: center;
+}
+
+#model-controls div {
+  width: 100%;
+}
+
+#model-controls button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background: none;
+  color: #fff;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+#model-controls svg {
+  stroke: #fff;
+  height: 40px;
+  width: 40px;
 }
